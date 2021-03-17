@@ -6,6 +6,12 @@ The project contains:
 - Extracting, parsing of Wikipedia articles
 - Feature extraction from Wikipedia articles' text
 
+## Wikipedia dump used
+
+We used `enwiki-20200120` (20 Jan 2020) dump of English Wikipedia, downloaded from [Wikimedia Downloads page](https://dumps.wikimedia.org/).
+The original version of the dump that we have used is available for download:
+[Original Wikipedia dump we have used](https://kth.box.com/s/0omtdfafycz7cb6kh3lxx16lxny4v9ni).
+
 ## Conda environment
 
 [conda.yml](./conda.yaml) contains a Conda environment used for the project.
