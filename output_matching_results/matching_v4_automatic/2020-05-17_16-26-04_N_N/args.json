@@ -1,0 +1,4 @@
+{
+    "imagenet_split": "trainval_classes",
+    "overwrite": null
+}

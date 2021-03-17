@@ -1,0 +1,6 @@
+matching:
+  discard_categories:
+    max_depth: 2
+
+  match_categories:
+    max_depth: 10

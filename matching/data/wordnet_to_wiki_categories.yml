@@ -1,0 +1,8 @@
+# Format:
+# wordnet (wnid): "wikipedia_category_title"
+
+n00015388: ["Category:Animals", "Category:Insects"]
+n00017222: "Category:Plants"
+n00021939: ["Category:Goods (economics)", "Category:Artificial objects", 'Category:Manufactured goods']  # artifact, artefact
+n13134947: ["Category:Fruit", "Category:Plants"]
+n07707451: ["Category:Vegetables", "Category:Crops", "Category:Plants"]

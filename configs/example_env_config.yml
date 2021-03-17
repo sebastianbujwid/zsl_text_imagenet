@@ -1,0 +1,28 @@
+env:
+  datasets:
+    ImageNet:
+      # Source: https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/zero-shot-learning/zero-shot-learning-the-good-the-bad-and-the-ugly/
+      # (.mat file converted to HDF5)
+      data_splits_file: 'PATH/data/zsl/zsl_a_comprehensive_evaluation/ImageNet_splits.hdf5'
+
+      # Original source: https://github.com/pujols/zero-shot-learning
+      ## (Converted Pickle available: https://kth.box.com/s/toc5x1j8vtykbxajxp5p2iuomcgarfik)
+      imagenet_ids_to_wordnet: 'PATH/data/zsl/synthetized_classifiers_for_zsl/ImageNet_w2v/ImageNet_w2v_extra.pkl'
+
+      wikipedia_articles_path: 'PATH/data/enwiki/remote/extracted_enwiki-20200120-pages-articles'
+      meta_wiki_file: 'PATH/data/enwiki/remote/meta_enwiki-20200120-pages-articles.pkl'
+
+      matched_pages_pkl:    # Ignore
+      # https://github.com/sebastianbujwid/ImageNet-Wiki_dataset
+      manual_matches_csv: 'PATH/data/ImageNet-Wiki_dataset/class_article_correspondences/class_article_correspondences_trainval.csv'
+
+
+  Wikipedia:
+    wiki_pages_structure: 'PATH/data/enwiki/pages_structure_enwiki-20200120-pages-articles.xml.pkl'
+
+  WordNet_Wikipedia_alignment:
+    the_peoples_web_meets_linguistic_knowledge_brief_file: 'PATH/data/wordnet-wikipedia_alignment/the_peoples_web_meets_linguistic_knowledge/AlignmentWordNetWikipedia-1.1/WordNet3.0-Wikipedia_brief.tsv'
+    dijkstra_wsa_file: 'PATH/data/wordnet-wikipedia_alignment/dijkstra-wsa_a_graph_based_approach_to_word_sense_alignment/WN_WP_full_alignment_DijkstaWSA_best_corrected.txt.txt'
+
+  WordEmbeddings:
+    embeddings_dir: 'PATH/data/nlp/embeddings'

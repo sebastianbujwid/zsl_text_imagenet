@@ -1,0 +1,30 @@
+ALBERT:
+  model_name: 'albert-xxlarge-v2'
+  #model_name: 'albert-base-v2'
+
+  # Used for long text
+  max_length: 256
+  overlap_window: 50
+
+  summary_extraction_mode: 'mean_tokens' # or 'pooler_output' or 'sum_tokens'
+  aggregate_long_text_splits_method: 'mean' # or 'sum
+
+  aggregate_descriptions_method: 'mean_representations' # or 'sum_representations'
+
+WordEmbeddings:
+  embeddings_file: 'glove.840B.300d.txt'
+  lowercase: True
+
+  #embeddings_file: 'GoogleNews-vectors-negative300.bin'
+  #lowercase: False
+
+  aggregate_descriptions_method: 'mean_representations'
+  #aggregate_descriptions_method: 'sum_representations'
+
+Wikipedia:
+  article_sections: [   # special fields: "ABSTRACT", "ALL"
+    "ALL",
+    #"ABSTRACT",
+    #"Description",
+    #"Appearance",
+  ]
