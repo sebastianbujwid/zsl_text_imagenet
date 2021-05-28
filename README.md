@@ -6,6 +6,14 @@ The project contains:
 - Extracting, parsing of Wikipedia articles
 - Feature extraction from Wikipedia articles' text
 
+## Download encoded text from Wikipedia articles
+
+Available to download:
+[Encoded Wikipedia articles (extracted features)](https://kth.box.com/s/y4zntt7hvq0eoe6hzp1sx2vvilwen8qx). Contains Wikipedia articles corresponding to ImageNet classes encoded with:
+- GloVe features
+- Word2Vec features
+- ALBERT (xxlarge & base)
+
 ## Wikipedia dump used
 
 We used `enwiki-20200120` (20 Jan 2020) dump of English Wikipedia, downloaded from [Wikimedia Downloads page](https://dumps.wikimedia.org/).
@@ -23,7 +31,7 @@ Due to some changes in newer versions of [transformers](https://github.com/huggi
 If interested, see more details in the [corresponding Github issue](https://github.com/huggingface/transformers/issues/7889).
 
 To make it work you can try to manually load the cached models we used:
-[Older, cached ALBERT models from `transfomers` library](https://kth.box.com/s/rzfsx4eschd88eio8fjh7b53hjdite05)
+[Older, cached ALBERT models from `transfomers` library](https://kth.box.com/s/b8v27c2lgyfi4qbziohxypcvearz0yqx)
 
 
 ## Project
