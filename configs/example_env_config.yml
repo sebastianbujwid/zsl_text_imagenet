@@ -6,7 +6,7 @@ env:
       data_splits_file: 'PATH/data/zsl/zsl_a_comprehensive_evaluation/ImageNet_splits.hdf5'
 
       # Original source: https://github.com/pujols/zero-shot-learning
-      ## (Converted Pickle available: https://kth.box.com/s/toc5x1j8vtykbxajxp5p2iuomcgarfik)
+      ## (Converted Pickle available: https://kth.box.com/s/wmyqldtqvbg06r9t9l2r1xwqqi8ihwml)
       imagenet_ids_to_wordnet: 'PATH/data/zsl/synthetized_classifiers_for_zsl/ImageNet_w2v/ImageNet_w2v_extra.pkl'
 
       wikipedia_articles_path: 'PATH/data/enwiki/remote/extracted_enwiki-20200120-pages-articles'
