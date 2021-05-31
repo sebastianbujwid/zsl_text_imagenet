@@ -13,9 +13,14 @@ ALBERT:
 
 WordEmbeddings:
   embeddings_file: 'glove.840B.300d.txt'
+    # Source:
+    # https://nlp.stanford.edu/projects/glove/
   lowercase: True
 
   #embeddings_file: 'GoogleNews-vectors-negative300.bin'
+    # Source:
+    # Reference page: https://code.google.com/archive/p/word2vec/
+    # File: https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing
   #lowercase: False
 
   aggregate_descriptions_method: 'mean_representations'
