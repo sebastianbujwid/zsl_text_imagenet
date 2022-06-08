@@ -9,7 +9,7 @@ The project contains:
 ## Download encoded text from Wikipedia articles
 
 Available to download:
-[Encoded Wikipedia articles (extracted features)](https://kth-my.sharepoint.com/:f:/g/personal/bujwid_ug_kth_se/EopsN4tGqX1Cuu7QDVSPk2MBLrddGgs0KmwPg5fzgMkNSA?e=FFdzUT). Contains Wikipedia articles corresponding to ImageNet classes encoded with:
+[Encoded Wikipedia articles (extracted features)](https://drive.google.com/drive/folders/1XEJj4cTFYA9CXOG59Cbx8P4zcmr2Jm6X?usp=sharing). Contains Wikipedia articles corresponding to ImageNet classes encoded with:
 - GloVe features
 - Word2Vec features
 - ALBERT (xxlarge & base)
@@ -18,7 +18,7 @@ Available to download:
 
 We used `enwiki-20200120` (20 Jan 2020) dump of English Wikipedia, downloaded from [Wikimedia Downloads page](https://dumps.wikimedia.org/).
 The original version of the dump that we have used is available for download:
-[Original Wikipedia dump we have used](https://kth-my.sharepoint.com/:f:/g/personal/bujwid_ug_kth_se/EtzGiqtVzoxCrwDLxumH7PIBT-EE8nLmj03kE78R8zHlEg?e=7KUP8O).
+[Original Wikipedia dump we have used](https://kth-my.sharepoint.com/:f:/g/personal/bujwid_ug_kth_se/EhikEC-tGb1Ks5w-7eQjKa4Bg1u0n6IueXYyibSOpaj1ig?e=rtpCyc).
 
 For the ImageNet-Wikipedia articles correspondences and the original extracted text refer to: [ImageNet-Wiki Dataset repository](https://github.com/sebastianbujwid/ImageNet-Wiki_dataset)
 
@@ -33,7 +33,7 @@ Due to some changes in newer versions of [transformers](https://github.com/huggi
 If interested, see more details in the [corresponding Github issue](https://github.com/huggingface/transformers/issues/7889).
 
 To make it work you can try to manually load the cached models we used:
-[Older, cached ALBERT models from `transfomers` library](https://kth-my.sharepoint.com/:f:/g/personal/bujwid_ug_kth_se/EpzO_H4P0t1Biwu8nVdLT7kBr935GCh9U3PM4ncVatbIWg?e=op7lWk)
+[Older, cached ALBERT models from `transfomers` library](https://drive.google.com/drive/folders/1JIYgRketm2YeCd38Viq5iVUYLhUcRMG7?usp=sharing)
 
 
 ## Project
