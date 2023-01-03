@@ -17,8 +17,7 @@ Available to download:
 ## Wikipedia dump used
 
 We used `enwiki-20200120` (20 Jan 2020) dump of English Wikipedia, downloaded from [Wikimedia Downloads page](https://dumps.wikimedia.org/).
-The original version of the dump that we have used is available for download:
-[Original Wikipedia dump we have used](https://kth-my.sharepoint.com/:f:/g/personal/bujwid_ug_kth_se/EhikEC-tGb1Ks5w-7eQjKa4Bg1u0n6IueXYyibSOpaj1ig?e=rtpCyc).
+The original version of the dump that we have used is available on request only (due to large size).
 
 For the ImageNet-Wikipedia articles correspondences and the original extracted text refer to: [ImageNet-Wiki Dataset repository](https://github.com/sebastianbujwid/ImageNet-Wiki_dataset)
 
